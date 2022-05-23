@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavLink, Outlet, useNavigate } from 'react-router-dom';
+import {Button} from '../Generic/Button'
 import {
   ActiveStyle,
-  Button,
   Container,
   Logo,
   NavbarBody,
@@ -13,6 +13,9 @@ import { navbar } from '../../Utils/navbar';
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const gotoSignIn = () =>{
+    navigate('/signin');
+  }
   return (
     <Wrapper className='nocopy'>
       <Container>
@@ -33,7 +36,7 @@ const Navbar = () => {
             })}
           </NavbarBody>
           <Logo>
-            <Button width={'120px'}>Signin</Button>
+            <Button onClick={gotoSignIn} width={'120px'}>Login</Button>
           </Logo>
         </NavbarWrapper>
       </Container>
