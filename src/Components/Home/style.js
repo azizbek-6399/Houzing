@@ -6,6 +6,7 @@ const Container = styled.div`
     max-width: var(--width);
     width: 100%;
     padding: 0 130px;
+    flex-direction: column;
 `;
 
 export {Container}

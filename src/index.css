@@ -51,7 +51,7 @@ line-height: 24px;
 
 /* Color / 2 */
 
-color: #0D263B;
+color: #696969;
 }
 
 .description {
@@ -81,4 +81,12 @@ justify-content: center;
 -moz-user-select: none;
 -ms-user-select: none; 
 user-select: none;
+}
+
+.alice-carousel__prev-btn{
+    display: none;
+}
+
+.alice-carousel__next-btn{
+    display: none;
 }

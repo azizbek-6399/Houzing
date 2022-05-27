@@ -25,7 +25,7 @@ const Filter = () => {
         <Input width={"200px"} placeholder="Min price" />
         <Input width={"200px"} placeholder="Max price" />
       </Section>
-      <Section>
+      <Section end>
         {/* <Button width='131px' ml={20} type='secondary'>
           Cancel
         </Button> */}
